@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif; 
+}
+
+*{
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	font-family: 'Poppins', sans-serif; 
+}
+
+body {
+	overflow: hidden; 
+	background-color: #D3D3D3; 
+
+}
+
+section{
+	
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	min-height: 100vh;  	
+}
+
+.box {
+	position: relative;
+}
+
+.container {
+	position: relative; 
+	width: 400px; 
+	min-height:400px; 
+	background: #D3D3D3;
+	border-radius: 5px; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	backdrop-filter: blur(2px); 
+	box-shadow: 10px 10px 10px 10px rgba(0.1,0.1,0.1,0.1); 
+	border: 30px solid #D3D3D3;  
+}
+
+form {
+	position: relative; 
+	width: 100%; 
+	height: 100%; 
+	padding: 40px; 
+}
+
+form h2 {
+	position: relative; 
+	color: #000000; 
+	font-size: 24px; 
+	font-weight: 600; 
+	letter-spacing: 1px; 
+	margin-bottom: 40px; 
+}
+
+form h2::before{
+	content: ''; 
+	position: absolute;
+	left: 0; 
+	bottom: -10px; 
+	width: 80px; 
+	height: 4px; 
+	background-color: #000000; 
+}
+
+form .inputBox {
+	width: 100px; 
+	margin-top: 20px; 
+}
+
+form .inputBox input {
+	width: 260px;
+	height: 30px; 
+	background: rgba (255, 255, 255, 0.2); 
+	border: none; 
+	outline: none; 
+	padding: 10px 20px; 
+	border-radius: 35px; 
+	border: 1px solid (255, 255, 255, 0.5);
+	border-right: 1px solid rgba(255, 255, 255, 0.2); 
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	font-size: 12px;
+	
+}
+
+form .inputBox input[type="submit"] {
+	cursor: pointer; 
+	background-color: #000000; 
+	color: #ffffff; 
+	width: 100px; 
+	height: 35px; 
+}
+
+.forget {
+	font-family:'Poppins'; 
+	font-size: 14px; 
+	color: #353839; 
+} 
+
+.forget a {
+	color: #000000; 
+	font-weight: 600; 
+}
